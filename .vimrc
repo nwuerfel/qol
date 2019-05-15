@@ -7,10 +7,11 @@ map <C-h> :tabp<CR>
 :map <space> /
 set tabstop=4
 set expandtab
-set tw=75
+set tw=80
 set sw=4
 set number
 set cursorline
+set ai
 execute pathogen#infect()
 syntax on
 
