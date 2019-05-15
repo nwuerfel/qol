@@ -12,6 +12,7 @@ set sw=4
 set number
 set cursorline
 set ai
+set path=$PWD/**
 execute pathogen#infect()
 syntax on
 
